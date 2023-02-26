@@ -1,2 +1,3 @@
-# portfolio_vueJs
-Vue.js portfolio site
+Hyunhee Lee's Vue.js portfolio site
+
+http://ariakekoichi.html.xdomain.jp/
