@@ -1,6 +1,5 @@
 <template>
     <div class="hero">
-        <img class="background" src="@/assets/img/background.png" />
         <div class="container">
             <div class="main">
                 <nav class="text-right changeLanguage">
@@ -42,8 +41,8 @@
                 <h5 class="title">{{ $t("hyunheeLee") }}</h5>
                 <h3 class="mb-4">{{ $t("Software Developer") }}</h3>
                 <img src="@/assets/img/MyPhoto.png">
-                <ul class="links">
-                    <li>
+                <ul class="links list-inline">
+                    <li class="list-inline-item">
                         <a
                         class="btn"
                         href="mailto:jipai1121@gmail.com"
@@ -52,23 +51,24 @@
                         title="Hyunhee Lee e-mail"
                         >Email Me</a>
                     </li>
-                    <li class="d-none">
-                        <a
+                    <li class="list-inline-item">
+                      <a
                         class="btn"
-                        href="https://github.com/jipai1121/"
+                        href="https://github.com/jipai1121"
                         target="_blank"
                         title="Hyunhee Lee GitHub"
-                        >Github</a>
+                      >Github</a>
                     </li>
-                    <li class="d-none">
+                    <li class="list-inline-item">
                         <a
                         class="btn"
-                        href="https://www.linkedin.com/in/hyunhee1121/"
+                        href="https://www.linkedin.com/in/hyunhee1121"
                         target="_blank"
                         title="Hyunhee Lee LinkedIn"
                         >LinkedIn</a>
                     </li>
-                    <li class="d-none">
+                    <!-- TODO: calendlyが必要になったらコメントアウト
+                    <li class="d-none list-inline-item">
                         <a
                         class="btn"
                         href="https://calendly.com/jipai1121"
@@ -76,6 +76,7 @@
                         title="Hyunhee Lee Schedule a call"
                         >Schedule a call</a>
                     </li>
+                     -->
                 </ul>
                 </div>
                 <div id="content">
@@ -341,6 +342,7 @@
                             </div>
                         </div><!-- #personalActivities -->
                     <h2 class="sub-title">{{ $t("Certifications") }}</h2>
+                    <p>・AWS Certified Cloud Practitioner Certification</p>
                     <h5 class="my-2">Japan</h5>
                     <p>・{{ $t("基本情報技術者") }}</p>
                     <p>・{{ $t("色彩検定 2級") }}</p>
@@ -355,16 +357,6 @@
                 </div><!-- #content -->
             </div><!-- .main -->
             <div class="footer">
-                <ul class="links">
-                    <li>
-                        <a
-                        class="btn"
-                        href="https://github.com/jipai1121/"
-                        target="_blank"
-                        title="Hyunhee Lee GitHub"
-                        >Github</a>
-                    </li>
-                </ul>
                 <nav class="text-center changeLanguage mt-5">
                     <ul class="list-inline">
                         <li class="list-inline-item text-center">
@@ -412,6 +404,8 @@
 </template>
 
 <script>
+
+import "@/assets/styles/main.css";
 export default {
   name: "Main",
   components: {},
@@ -422,179 +416,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
-    max-width: 1480px;
-    height: 100vh;
-    margin: 0px auto;
-    padding: 0px 20px 0px 20px;
-}
-.main {
-    /*max-width: 678px;*/
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 70px;
-    display: flex;
-    flex-direction: column;
-}
-.title {
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 91px;
-}
-.sub-title {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 45px;
-    padding-top: 10px;
-    border-bottom: 5px solid #444;
-    margin-bottom: 15px;
-    width: fit-content;
-}
-.btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 40px;
-    background-color: #2f2f2f;
-    border-radius: 8px;
-    color: #fff;
-    font-size: 14px;
-    margin: 48px auto 0px;
-}
-.btn:hover {
-    opacity: 0.8;
-    transition: 0.5s;
-}
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    max-height: 200px;
-    height: 100%;
-}
-.links {
-    margin: auto;
-    max-width: 536px;
-    width: 100%;
-    justify-content: space-between;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
-}
-.link:hover {
-    transition: 0s;
-    font-weight: 700;
-}
-.copyright {
-    font-size: 15px;
-    margin: auto;
-    margin: 0 auto;
-}
-#home {
-    text-align: center;
-    align-items: center;
-}
-.changeLanguage {
-    width: 100%;
-}
-.flipper {
-    height: 300px;
-}
-
-.figure:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: -webkit-transform .5s;
-    transition: -webkit-transform .5s;
-    transition: transform .5s;
-    transition: transform .5s,-webkit-transform .5s;
-}
-
-/* flip card*/
-.card-flip > div {
-  backface-visibility: hidden;
-  transition: transform 300ms;
-  transition-timing-function: linear;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  display: flex;
-}
-
-.card-front {
-  transform: rotateY(0deg);
-}
-
-.card-back {
-  transform: rotateY(180deg);
-  position: absolute;
-  top: 0;
-}
-
-.card-flip:hover .card-front {
-  transform: rotateY(-180deg);
-}
-  
-.card-flip:hover .card-back {
-  transform: rotateY(0deg);
-}
-
-@media (max-width: 707px) {
-  .main {
-    padding-top: 50px;
-  }
-}
-@media (max-width: 555px) {
-    .main {
-        padding-top: 40px;
-    }
-    .title {
-        line-height: 70px;
-    }
-    .title {
-        font-size: 65px;
-        line-height: 60px;
-    }
-    .sub-title {
-        font-size: 26px;
-    }
-    .btn {
-        margin: 40px auto 70px;
-    }
-}
-@media (max-width: 480px) {
-    .title {
-        font-size: 45px;
-        line-height: 40px;
-    }
-    .btn {
-        margin-bottom: 40px;
-    }
-    .links {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-    .copyright {
-        font-size: 8px;
-        margin-top: 25px;
-    }
-    .topLanguages {
-        text-align: center !important;
-    }
-}
-</style>
