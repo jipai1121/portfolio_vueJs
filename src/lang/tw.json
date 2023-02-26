@@ -1,0 +1,85 @@
+{
+    "hyunheeLee": "李 賢熹",
+    "Software Developer": "工程師",
+    "NotTranslated": "有些頁面還沒有翻譯。",
+    "About": "你好。我叫李賢熹，是來自韓國首爾的一名工程師。",
+
+    "About_Japan": "2017年大學畢業至今擔任IT工程師。",
+
+    "Smaregi Inc.": "Smaregi Inc.",
+    "Growth": "東京證券交易所成長型上市公司",
+    "Jun. 2021 to Present": "2021.06 ～ 現在",
+    "Smaregi-1": "開發部 工程師",
+    "Smaregi-2": "使用現代PHP框架開發自家公司的產品。",
+
+    "AdInte Co. ltd.": "AdInte Co. ltd.",
+    "Nov. 2020 to May 2021": "2020.11 ～ 2021.05",
+    "AdInte-1": "Product Div. 工程師",
+    "AdInte-2": "A. 紗線交易系統",
+    "AdInte-3": "使用codeigniter PHP框架開發了一個支持多種語言的紗線交易系統：日文、中文和英文。",
+    "AdInte-4": "B. 廣告空間管理工具",
+    "AdInte-5": "開發了一個管理每個商店的廣告空間信息的工具。",
+
+    "Cyber Port Inc.": "Cyber Port Inc.",
+    "Aug. 2019 to Oct. 2020": "2019.08 ～ 2020.10",
+    "CyberPort-1": "開發部 工程師",
+    "CyberPort-2": "開發了LP設計、電子商務網站、一個僅限邀請的購物中心網站，並製定了搜索引擎優化（SEO）策略。",
+
+    "Livelynx Inc.": "Livelynx Inc.",
+    "Sep. 2017 to May 2019": "2017.09 ～ 2019.05",
+    "Livelynx-1": "System Integration Division 工程師",
+    "Livelynx-2": "使用現代JavaScript庫(react, redux)技術開發了一個SDN控制器系統和三個圖形程序。",
+
+    "Cross Games Inc.": "Cross Games Inc.",
+    "CrossGames-1": "2017.04 ～ 2017.07 學生實習期",
+    "CrossGames-2": "2016.09 ～ 2017.03 遊戲程序員",
+    "CrossGames-3": "開發部 遊戲程序員",
+    "CrossGames-4": "使用Unity開發了一款用於智能手機的排球遊戲。",
+
+    "About_Korea": "進入大學之前，我在2010年1月至2013年1月期間從事了三年的兵役工作，是一名工廠工人。",
+
+    "Powertronics Co.,Ltd.": "Powertronics Co.,Ltd.",
+    "Aug. 2011 to Jan. 2013": "2011.08 ～ 2013.01",
+    "Powertronics-1": "生產部",
+    "Powertronics-2": "作為服兵役的一部分擔任工廠工人。",
+    "Powertronics-3": "領導一個四人團隊，管理天線生產、包裝和質量檢查，通過自願創建質量檢查手冊。",
+    "Powertronics-4": "2012年被評為生產團隊最佳員工。",
+
+    "HanShinKiJeon Co., Ltd.": "HanShinKiJeon Co., Ltd.",
+    "Jan. 2010 to Aug. 2011": "2010.01 ～ 2011.08",
+    "HanShinKiJeon-1": "生產部 潔淨室",
+    "HanShinKiJeon-2": "作為服兵役的一部分擔任工廠工人。",
+    "HanShinKiJeon-3": "檢查了硬盤和打印機的零件。",
+    "HanShinKiJeon-4": "管理生產硬盤和打印機組件的模具。",
+
+    "QU1-1": "九州大學",
+    "QU1-2": "藝術工學部 藝術情報設計學科 學士",
+    "QU2-1": "在九州大學藝術工學部學習編程課程。",
+
+    "CHUK1-1": "香港中文大學",
+    "Education2-2": "國際暑期課程(中文課程)",
+    "Education2-3": "合作大學之一的香港中文大學體驗了一個月的短期中文學習項目。它拓寬了我對中華文化領域的看法。",
+
+    "GeikoOke": "九州大學 藝術工學部 愛樂管弦樂團",
+    "GeikoOkePeriod": "2013.04 ～ 2017.03",
+    "GeikoOkeDescription-1": "作為大學社團成員，我在九州大學藝術工學部愛樂管弦樂團中演奏單簧管部分。(簡稱 Geiko Oke)",
+    "GeikoOkeDescription-2": "在樂團的四年裡，我參加了三場訂閱音樂會，四場校內音樂會和一場聯合管弦樂隊音樂會。",
+    "GeikoOkeDescription-3": "2015年，我擔任了單簧管部分的領隊。",
+
+    "福岡中国語学友会": "福岡中國語學友會",
+    "2015 to 2019": "2015年 ～ 2019年",
+    "福岡中国語学友会-1": "在Facebook群組[福岡中國語學友會]中擔任中文學習小組的組織者。 對我來說，與許多來自中國文化的人交流是一個寶貴的經驗。",
+
+    "Forest Witch Description-1": "[期間] 2015年12月～2016年1月（兩個月）",
+    "Forest Witch Description-2": "[可用的語言] 韓文，日文，繁體中文",
+    "Forest Witch Description-3": "[説明] 這是一款動作遊戲，由四人組成的小組在我上大學時創建，並已提交給第9屆福岡遊戲大賽。",
+    "Forest Witch Description-4": "受到了周圍人的好評。",
+    "Forest Witch Download": "遊戲下載",
+
+    "基本情報技術者": "基本情報技術者",
+    "色彩検定 2級": "色彩檢定 2級",
+    "ファイナンシャルプランナー 3級": "3rd grade Certified Skilled Professional of Financial Planning",
+    "전자기기기능사": "Craftsman Electronic Apparatus",
+    "JLPT Level 1": "日本語能力測試(JLPT) 1級",
+    "HSK Level 6": "漢語水平考試(HSK) 6級"
+}
